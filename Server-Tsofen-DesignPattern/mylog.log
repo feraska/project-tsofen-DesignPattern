@@ -1,0 +1,2 @@
+Aug 27, 2022 12:46:43 PM main.Log log
+SEVERE: {"header":{"actionType":"move","fileName":"dir1/file1.txt:dir2/file2.txt","requestId":"a8883e5a-f5a6-45ef-b0fa-77ef3a102e6c","response":"fileNotFound ==> 404","contentType":""},"
