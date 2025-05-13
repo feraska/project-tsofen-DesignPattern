@@ -1,0 +1,17 @@
+services:
+  client:
+    image: client-java
+    build: ./Client-Tsofen-DesignPattern
+    container_name: client-java
+    stdin_open: true
+    tty: true
+    depends_on:
+      - server
+   
+
+  server:
+    image: server-java
+    build: ./Server-Tsofen-DesignPattern
+    container_name: server-java
+    stdin_open: true
+    tty: true
